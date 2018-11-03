@@ -1,0 +1,17 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin content-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@mixin arranged_anchor {
+  color: #fff;
+  text-decoration: none;
+}

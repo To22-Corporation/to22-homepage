@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px) {
+  .section {
+    height: 400px;
+    background: #fff url(To22-toppage--backgroundimage2.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    .section__message {
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+@media screen and (min-width: 769px) {
+  .section {
+    height: 370px;
+    background: #fff url(To22-toppage--backgroundimage.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    .section__message {
+      h1 {
+        font-size: 5rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.container {
+  min-height: calc(100vh - $header-height - $footer-height);
+  height: 100%;
+  margin-bottom: $footer-height; // footerを最下部に置くのに必要
+  // padding-top: 70px; // containerをheaderとfooterの間に配置
+  .section {
+    width: 100%;
+    .section__message {
+      width: 95%;
+      margin: 0 auto;
+      color: $white;
+      h1 {
+        // width: 100%;
+        font-weight: bold;
+      }
+      p {
+        padding-top: 10px;
+        padding-bottom: 100px;
+      }
+      a {
+        padding: 10px 17px;
+        font-size: 0.7rem;
+        border: 1px solid $white;
+        border-radius: 5px;
+        i {
+          padding-left: 13px;
+        }
+        &:hover {
+          cursor: pointer;
+          background-color: $footer-black;
+        }
+      }
+    }
+  }
+}
+
+.vision {
+  height: 300px;
+  // background-color: skyblue;
+}
+.service {
+  height: 250px;
+  // background-color: limegreen;
+}
+.corporate {
+  height: 400px;
+  // background-color: gold;
+  .row {
+    .corp-info {
+      table {
+        margin: 0 auto;
+        tbody {
+          tr {
+            th {
+              padding-right:20px;
+              font-weight: 700;
+              line-height: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.contact {
+  height: 300px;
+  // background-color: violet;
+  .row {
+    .contact-info {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+  }
+}
+
+.vision, .service, .corporate, .contact {
+  .row {
+    @include content-padding;
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      text-align: center;
+    }
+    hr {
+      height: 3px;
+      background: limegreen;
+      border: none;
+      outline: none;
+      // margin: 2rem 35rem 3rem; // 横幅仮
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      width: 100px; // 横幅決定
+      // position: relative;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}

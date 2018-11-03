@@ -1,0 +1,17 @@
+@import "config/reset";
+@import "config/mixin";
+@import "config/font";
+@import "config/pixel";
+@import "config/color";
+@import "module/header";
+@import "module/footer";
+@import "top";
+
+body {
+  font-size: 14px;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}

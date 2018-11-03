@@ -1,0 +1,43 @@
+.footer {
+  background-color: $footer-black;
+  height: $footer-height;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  &__top {
+    .row {
+      margin: 0 auto;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: $white;
+        font-weight: bold;
+      }
+    }
+    ul {
+      text-align: center;
+      padding-top: 10px;
+      a {
+        padding: 5px;
+        i {
+          background: #040E18 none repeat scroll 0 0;
+          color: #fff;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 2.2rem;
+          box-sizing: border;
+        }
+      }
+    }
+  }
+  &__bottom {
+    margin-top: 70px;
+    p {
+      color: $white;
+      text-align: center;
+    }
+  }
+}
