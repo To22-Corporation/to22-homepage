@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   .section {
     height: 400px;
-    background: #fff url(To22-toppage--backgroundimage2.jpg) no-repeat;
+    background: #fff url(to22-homepage.jpg) no-repeat;
     background-size: cover;
     padding-top: 150px;
     .section__message {
@@ -17,7 +17,7 @@
 @media screen and (min-width: 769px) {
   .section {
     height: 370px;
-    background: #fff url(To22-toppage--backgroundimage.jpg) no-repeat;
+    background: #fff url(to22-homepage.jpg) no-repeat;
     background-size: cover;
     padding-top: 280px;
     .section__message {
@@ -68,15 +68,38 @@
 }
 
 .vision {
-  height: 300px;
+  height: 200px;
   // background-color: skyblue;
 }
+
+.top-message {
+  height: 400px;
+   p {
+     padding-bottom:30px;
+   }
+}
 .service {
-  height: 250px;
+  height: 350px;
   // background-color: limegreen;
+  .row {
+    .service-info {
+      table {
+        margin: 0 auto;
+        tbody {
+          tr {
+            th {
+              padding-right:20px;
+              font-weight: 700;
+              line-height: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 .corporate {
-  height: 400px;
+  height: 380px;
   // background-color: gold;
   .row {
     .corp-info {
@@ -95,7 +118,8 @@
     }
   }
 }
-.contact {
+.recruit {
+  height: 300px;
   height: 300px;
   // background-color: violet;
   .row {
@@ -105,8 +129,18 @@
     }
   }
 }
+// .contact {
+//   height: 300px;
+//   // background-color: violet;
+//   .row {
+//     .contact-info {
+//       font-size: 1.2rem;
+//       font-weight: 700;
+//     }
+//   }
+// }
 
-.vision, .service, .corporate, .contact {
+.vision, .top-message, .service, .corporate, .recruit {
   .row {
     @include content-padding;
     h1 {

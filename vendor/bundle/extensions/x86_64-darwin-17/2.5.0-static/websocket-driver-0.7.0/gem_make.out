@@ -1,0 +1,15 @@
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/Users/noma/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181227-1693-1k43gc1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20181227-1693-ngvhv3

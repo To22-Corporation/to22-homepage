@@ -1,0 +1,19 @@
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+/Users/noma/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181227-1693-rxgrvk.rb extconf.rb
+creating Makefile
+
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/noma/To22/to22-homepage/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20181227-1693-1w2s8j8/byebug
